@@ -1,4 +1,4 @@
-'use strict';
+e`'use strict';
 
 describe("dwarfRollCall", function() {
       it("prints out dwarfs in a numbered list based on an array'", function() {
