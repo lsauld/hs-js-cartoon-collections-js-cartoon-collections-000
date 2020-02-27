@@ -49,6 +49,19 @@ function findTheCheese (foods) {
   return "no cheese!";
 }
 
+// return a new array
+// contains all of the words from the first array
+// that start with the letter b
+function wordsWithB(words){
+  letterB=[];
+  for(var i=0; i< words.length; i++){
+    if(words[i][0] ==="b"){
+      letterB.push(words[i])
+    }
+  }
+  return letterB;
+}
+
 
 
 
