@@ -56,7 +56,7 @@ function wordsWithB(words){
   letterB=[];
   for(var i=0; i< words.length; i++){
     if(words[i][0] ==="b"){
-      letterB.push(words[i])
+      letterB.push(words);
     }
   }
   return letterB;
